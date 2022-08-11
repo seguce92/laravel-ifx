@@ -9,12 +9,12 @@ Laravel-ifx is an Informix Database Driver package for [Laravel Framework](http:
 
 ### Installation
 
-Add `poyii/laravel-ifx` as a requirement to composer.json:
+Add `Seguce92/laravel-ifx` as a requirement to composer.json:
 
 ```json
 {
     "require": {
-        "poyii/laravel-ifx": "1.0.0"
+        "Seguce92/laravel-ifx": "1.0.0"
     }
 }
 ```
@@ -24,7 +24,7 @@ Once Composer has installed or updated your packages you need to register Inform
 the `providers` key and add:
 
 ```php
-Poyii\Informix\InformixDBServiceProvider::class,
+Seguce92\Informix\InformixDBServiceProvider::class,
 ```
 
 Finally you need to publish a configuration file by running the following Artisan command.

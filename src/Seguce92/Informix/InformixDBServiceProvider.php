@@ -6,7 +6,7 @@
  * Time: 10:40
  */
 
-namespace Poyii\Informix;
+namespace Seguce92\Informix;
 
 use Illuminate\Support\Arr;
 use Illuminate\Support\ServiceProvider;
@@ -31,7 +31,7 @@ class InformixDBServiceProvider extends ServiceProvider
     /**
      * Register the service provider.
      *
-     * @returns \Poyii\Informix\IfxConnection
+     * @returns \Seguce92\Informix\IfxConnection
      */
     public function register()
     {

@@ -5,7 +5,7 @@
  * Date: 2016/1/20
  * Time: 14:38
  */
-namespace Poyii\Informix\Schema\Grammars;
+namespace Seguce92\Informix\Schema\Grammars;
 
 use Illuminate\Database\Schema\Grammars\Grammar;
 use Illuminate\Support\Fluent;

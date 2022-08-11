@@ -1,6 +1,6 @@
 <?php
 
-namespace Poyii\Informix\Query\Processors;
+namespace Seguce92\Informix\Query\Processors;
 
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Processors\Processor;

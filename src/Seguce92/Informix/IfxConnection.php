@@ -1,6 +1,6 @@
 <?php
 
-namespace Poyii\Informix;
+namespace Seguce92\Informix;
 /**
  * Created by PhpStorm.
  * User: llaijiale
@@ -9,10 +9,10 @@ namespace Poyii\Informix;
  */
 use Illuminate\Database\Connection;
 use Illuminate\Database\Eloquent\Model;
-use Poyii\Informix\Query\Processors\IfxProcessor;
-use Poyii\Informix\Query\Grammars\IfxGrammar as QueryGrammar;
-use Poyii\Informix\Schema\Grammars\IfxGrammar as SchemaGrammar;
-use Poyii\Informix\Schema\IfxBuilder as SchemaBuilder;
+use Seguce92\Informix\Query\Processors\IfxProcessor;
+use Seguce92\Informix\Query\Grammars\IfxGrammar as QueryGrammar;
+use Seguce92\Informix\Schema\Grammars\IfxGrammar as SchemaGrammar;
+use Seguce92\Informix\Schema\IfxBuilder as SchemaBuilder;
 use DateTimeInterface;
 
 class IfxConnection extends Connection

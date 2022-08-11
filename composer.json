@@ -1,22 +1,22 @@
 {
-  "name": "poyii/laravel-ifx",
+  "name": "seguce92/laravel-ifx",
   "description": "Informix DB driver for Laravel 5",
   "keywords": ["informix", "laravel", "laravel 5", "ifx" ],
   "license": "MIT",
   "version": "1.1.2",
   "authors": [
     {
-      "name": "llaiayumi",
-      "email": "872833541@qq.com"
+      "name": "seguce92",
+      "email": "seguce92@gmail.com.bo"
     }
   ],
   "require": {
-    "php": ">=5.5.31",
-    "illuminate/support": "5.2.*",
-    "illuminate/database": "5.2.*",
-    "illuminate/pagination": "5.2.*",
-    "illuminate/encryption": "5.2.*",
-    "guzzlehttp/guzzle": "6.2.*"
+    "php": ">=7.*",
+    "illuminate/support": "*",
+    "illuminate/database": "*",
+    "illuminate/pagination": "*",
+    "illuminate/encryption": "*",
+    "guzzlehttp/guzzle": "*"
   },
   "require-dev": {
     "fzaninotto/faker": "~1.4",
@@ -26,7 +26,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Poyii\\": "src/Poyii"
+      "Seguce92\\": "src/Seguce92"
     }
   },
   "minimum-stability": "stable"

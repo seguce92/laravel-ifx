@@ -1,6 +1,6 @@
 <?php
 
-namespace Poyii\Informix;
+namespace Seguce92\Informix;
 /**
  * Created by PhpStorm.
  * User: llaijiale
@@ -12,9 +12,9 @@ use GuzzleHttp\Client;
 use Illuminate\Database\Connection;
 use Illuminate\Database\ConnectionInterface;
 use Illuminate\Support\Arr;
-use Poyii\Informix\Query\Grammars\IfxGrammar;
-use Poyii\Informix\Query\Processors\IfxProcessor;
-use Poyii\Informix\Schema\IfxBuilder;
+use Seguce92\Informix\Query\Grammars\IfxGrammar;
+use Seguce92\Informix\Query\Processors\IfxProcessor;
+use Seguce92\Informix\Schema\IfxBuilder;
 use DateTimeInterface;
 use Illuminate\Support\Facades\Log;
 
@@ -140,7 +140,7 @@ class IfxJsonConnection extends Connection implements ConnectionInterface
      */
     protected function getDefaultSchemaGrammar()
     {
-        return $this->withTablePrefix(new \Poyii\Informix\Schema\Grammars\IfxGrammar());
+        return $this->withTablePrefix(new \Seguce92\Informix\Schema\Grammars\IfxGrammar());
     }
 
 

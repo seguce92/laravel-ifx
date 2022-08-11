@@ -1,6 +1,6 @@
 <?php
 
-namespace Poyii\Informix\Connectors;
+namespace Seguce92\Informix\Connectors;
 
 use Illuminate\Contracts\Encryption\Encrypter;
 use Illuminate\Database\Connectors\Connector;

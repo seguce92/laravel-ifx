@@ -1,6 +1,6 @@
 <?php
 
-namespace Poyii\Informix\Query\Grammars;
+namespace Seguce92\Informix\Query\Grammars;
 
 use Illuminate\Database\Query\Builder;
 use Illuminate\Database\Query\Grammars\Grammar;
