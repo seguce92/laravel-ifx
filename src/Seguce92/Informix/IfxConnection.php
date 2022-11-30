@@ -80,6 +80,7 @@ class IfxConnection extends Connection
     }
 
     protected function convertCharset($in_encoding, $out_encoding, $value){
+	$value = str_replace('¥', 'Ñ', $value);
         //IGNORE
 //        $encoding = mb_detect_encoding($value, mb_detect_order(), false);
 //
