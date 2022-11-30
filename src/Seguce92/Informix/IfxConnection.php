@@ -80,7 +80,6 @@ class IfxConnection extends Connection
     }
 
     protected function convertCharset($in_encoding, $out_encoding, $value){
-
         //IGNORE
 //        $encoding = mb_detect_encoding($value, mb_detect_order(), false);
 //
@@ -90,7 +89,8 @@ class IfxConnection extends Connection
 //        }
 //        \Log::debug("encoding: ".$in_encoding." value ".$value);
         //return mb_convert_encoding(trim($value), $out_encoding);
-        return iconv($in_encoding, "{$out_encoding}//IGNORE", trim($value));
+        //return iconv($in_encoding, "{$out_encoding}//IGNORE", trim($value));
+        return iconv($in_encoding, "{$out_encoding}//TRANSLIT", trin($value));
     }
 
     public function select($query, $bindings = [], $useReadPdo = true)
