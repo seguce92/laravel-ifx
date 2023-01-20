@@ -29,5 +29,6 @@
       "Seguce92\\": "src/Seguce92"
     }
   },
-  "minimum-stability": "stable"
+  "minimum-stability": "stable",
+  "prefer-stable": true
 }
